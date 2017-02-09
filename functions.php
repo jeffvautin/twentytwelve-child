@@ -17,7 +17,9 @@ add_filter( 'feed_links_show_comments_feed', '__return_false' );
 
 // Add in microblog feed to header
 function microblog_feed() {
-    echo '\\n<link rel="alternate" type="application/rss+xml" title="Jeff Vautin &raquo; Microblog Feed" href="/micro.xml" />\\n';
+    echo '
+    <link rel="alternate" type="application/rss+xml" title="Jeff Vautin &raquo; Microblog Feed" href="/micro.xml" />
+    ';
 }
 add_action('wp_head', 'microblog_feed');
 
