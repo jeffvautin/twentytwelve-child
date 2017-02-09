@@ -22,7 +22,7 @@ add_filter('post_comments_feed_link','disablePostCommentsFeedLink');
 function child_remove_parent_function_twentytwelve_setup() {
     remove_action( 'after_setup_theme', 'twentytwelve_setup' );
 }
-add_action( 'init', 'child_remove_parent_function_twentytwelve_setup' );
+add_action( 'after_setup_theme', 'child_remove_parent_function_twentytwelve_setup', 0 );
 
 function twentytwelve_child_setup() {
 	/*
