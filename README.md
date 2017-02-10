@@ -1,5 +1,5 @@
 # twentytwelve-child
-Personalization of wordpress TwentyTwelve theme.
+Personalization of wordpress TwentyTwelve theme. Additional notes are available on [my blog](https://jeffvautin.com/2017/02/wordpress-child-theme/).
 
 ## Personalization ##
 
