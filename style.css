@@ -11,3 +11,23 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-twelve-child
 */
+
+/* Remove the underline from Status permalinks */
+article.format-status footer.entry-meta a:link,
+article.format-status footer.entry-meta a:visited {
+    text-decoration: none;
+}
+
+/* These two are needed to collapse the space between content and footer*/
+article.format-status .entry-content p {
+    margin-bottom: 0;
+}
+article.format-status footer.entry-meta {
+	margin-top: 0;
+}
+
+/* Remove divider  */
+article.format-status {
+	border-bottom: 4px none #ededed;
+	padding-bottom: 0;
+}
