@@ -23,4 +23,10 @@ function microblog_feed() {
 }
 add_action('wp_head', 'microblog_feed');
 
+// Include Recent Posts Excluding Category widget
+include("class-wp-widget-recent-posts-exclude-cat.php");
+add_action( 'widgets_init', function(){
+	register_widget( 'WP_Widget_Recent_Posts_Exclude_Cat' );
+});
+
 ?>
