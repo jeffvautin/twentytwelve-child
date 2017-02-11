@@ -3,9 +3,9 @@ Personalization of wordpress TwentyTwelve theme. Additional notes are available 
 
 ## Personalization ##
 
-* Added links to RSS feeds for main posts and microblog in `header.php`
+* Added link to Microblog RSS feed
 * Disabled post comment feeds in `functions.php`
-* Migrated twentytwelve_setup() function in `functions.php` to child theme so that loading of RSS feeds (including the main comments feed) can be disabled.
+* Removed header content, tweaked styling for Status posts
 
 ## Installation ##
 Checkout to wp-content/themes folder:
