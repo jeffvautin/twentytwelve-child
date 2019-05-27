@@ -8,6 +8,9 @@ Personalization of wordpress TwentyTwelve theme. Additional notes are available 
 * Removed header content, tweaked styling for Status posts
 * Added 'Recent Posts Excluding Category' widget, to allow for exclusion of microblog category
 
+### Formerly ###
+* Included added header link to [Micro.blog profile](http://micro.blog/jeff)
+
 ## Installation ##
 Checkout to wp-content/themes folder:
 `git clone https://github.com/jeffvautin/twentytwelve-child.git /var/www/website/wp-content/themes/twentytwelve-child/`
