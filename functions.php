@@ -23,11 +23,6 @@ function microblog_feed() {
 }
 add_action('wp_head', 'microblog_feed');
 
-// Add in micro.blog me link
-function microdotblog_link() {
-    echo '<link href="https://micro.blog/jeff" rel="me" />';
-}
-add_action('wp_head', 'microdotblog_link');
 
 // Include Recent Posts Excluding Category widget
 include("class-wp-widget-recent-posts-exclude-cat.php");

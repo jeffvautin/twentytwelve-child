@@ -4,7 +4,6 @@ Personalization of wordpress TwentyTwelve theme. Additional notes are available 
 ## Personalization ##
 
 * Added link to Microblog RSS feed
-* Added header link to [Micro.blog profile](http://micro.blog/jeff)
 * Disabled post comment feeds in `functions.php`
 * Removed header content, tweaked styling for Status posts
 * Added 'Recent Posts Excluding Category' widget, to allow for exclusion of microblog category
